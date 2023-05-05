@@ -1,8 +1,8 @@
-# Online-learning-platform
+# Online-learning-platform 📚
 
 This is an online learning platform that allows users to enroll and learn courses, add those to their wishlist, and manage the entire application. The platform has 3 modes of operation: ADMIN, USER, and PROFESSOR.
 
-# Features
+# Features 📚
 ADMIN Mode: Add and manage professors, users/learners, courses, and chapters; view lists of professors, courses, and users; accept or reject professor registrations; view various statistics on the admin dashboard.
 
 PROFESSOR Mode: Check available user list and courses, add new courses and chapters, enroll in courses, view and edit professor profile details, and view various statistics on the professor dashboard.
@@ -10,7 +10,7 @@ PROFESSOR Mode: Check available user list and courses, add new courses and chapt
 USER Mode: Enroll in courses, view and edit user profile details, view available courses and wishlist, and view various statistics on the user dashboard.
 
 
-# Usage
+# Usage 📚
 To use the platform, follow these steps:
 
 Register for a new account or log in with an existing account.
@@ -18,7 +18,7 @@ Select your desired mode of operation (ADMIN, USER, or PROFESSOR).
 Perform the necessary actions based on your mode of operation (see Features section).
 Log out of the platform when finished.
 
-# Installation & Run 
+# Installation & Run 📚
 Before running the API server, you should update the database config inside the application.properties file.
 
 Update the port number, username and password as per your local database config. server.port=8886
@@ -27,7 +27,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/Gogreen spring.datasource.driv
 
 API Root Endpoint https://localhost:8080/
 
-# Tech Stacks:
+# Tech Stacks:📚
 
 * Java
 * Spring Boot
